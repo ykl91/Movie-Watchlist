@@ -1,0 +1,33 @@
+.movies{
+  display : flex;
+}
+
+.movies .asideNav, .movies .tabs{
+  min-height : calc(100vh - 357px);
+}
+
+.movies .asideNav{
+  max-width : 20%;
+  min-width : 320px;
+  display : flex;
+  flex-direction : column;
+  background-color: white;
+}
+
+.movies .asideNav a{
+  padding : 30px 10px 30px 30px;
+  color : black;
+  border-bottom : 1px solid white;
+  font-weight: bold;
+}
+
+.movies .tabs{
+  padding : 30px;
+  height : auto !important;
+  background-color : #eee !important;
+  white-space : normal !important;
+}
+
+.movies .tabs h1{
+  margin-top: 0;
+}

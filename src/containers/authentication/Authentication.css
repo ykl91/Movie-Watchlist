@@ -1,0 +1,18 @@
+.register {
+	padding: 30px;
+}
+
+.register form{
+	max-width: 500px;
+}
+
+.register h1,
+.register form{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.register form{
+  margin-top : 30px;
+}
